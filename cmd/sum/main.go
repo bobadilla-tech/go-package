@@ -8,7 +8,7 @@ import (
 	"os"
 	"strconv"
 
-	"github.com/bobadilla-tech/sum-go"
+	"github.com/bobadilla-tech/go-package"
 )
 
 func main() {

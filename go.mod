@@ -1,3 +1,3 @@
-module github.com/bobadilla-tech/sum-go
+module github.com/bobadilla-tech/go-package
 
 go 1.25.0

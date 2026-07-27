@@ -1,11 +1,11 @@
-# sum-go
+# go-package
 
 Minimal template Go library: sums integers. Public API is just
 `Sum(nums ...int) int` in the root `sum` package.
 
 ## Layout
 
-- Root module (`github.com/bobadilla-tech/sum-go`) — the library, zero
+- Root module (`github.com/bobadilla-tech/go-package`) — the library, zero
   dependencies.
 - `cmd/sum` — showcase CLI, its **own separate Go module** with a `replace`
   directive back to the root. This keeps any CLI-only dependency out of the

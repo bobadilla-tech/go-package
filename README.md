@@ -1,8 +1,8 @@
-# sum-go
+# go-package
 
-[![CI](https://github.com/bobadilla-tech/sum-go/actions/workflows/ci.yml/badge.svg)](https://github.com/bobadilla-tech/sum-go/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/bobadilla-tech/sum-go/graph/badge.svg)](https://codecov.io/gh/bobadilla-tech/sum-go)
-[![Go Reference](https://pkg.go.dev/badge/github.com/bobadilla-tech/sum-go.svg)](https://pkg.go.dev/github.com/bobadilla-tech/sum-go)
+[![CI](https://github.com/bobadilla-tech/go-package/actions/workflows/ci.yml/badge.svg)](https://github.com/bobadilla-tech/go-package/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/bobadilla-tech/go-package/graph/badge.svg)](https://codecov.io/gh/bobadilla-tech/go-package)
+[![Go Reference](https://pkg.go.dev/badge/github.com/bobadilla-tech/go-package.svg)](https://pkg.go.dev/github.com/bobadilla-tech/go-package)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Minimal, well-tested Go library that sums integers. Meant as a template repo
@@ -16,7 +16,7 @@ package never pulls in any CLI-only dependency.
 ## Install
 
 ```sh
-go get github.com/bobadilla-tech/sum-go
+go get github.com/bobadilla-tech/go-package
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/bobadilla-tech/sum-go"
+	"github.com/bobadilla-tech/go-package"
 )
 
 func main() {
