@@ -37,8 +37,8 @@ func main() {
 
 ## CLI (showcase only)
 
-`cmd/sum` is a thin wrapper around the library, kept in its own Go module so
-its dependencies never leak into the library's `go.mod`:
+`cmd/sum` is a thin wrapper around the library, kept in its own Go module so its
+dependencies never leak into the library's `go.mod`:
 
 ```sh
 cd cmd/sum
